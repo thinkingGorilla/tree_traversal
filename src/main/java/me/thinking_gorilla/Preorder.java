@@ -1,6 +1,6 @@
 package me.thinking_gorilla;
 
-public class PreOrder implements Traversable {
+public class Preorder implements Traversable {
     public void traverse(TreeNode node) {
         if (node == null) return;
 

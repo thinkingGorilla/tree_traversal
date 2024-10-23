@@ -10,9 +10,9 @@ public class Traverser {
         root.right.left = new TreeNode(13);
         root.right.right = new TreeNode(18);
 
-        print("전위 순회: ", root, new InOrder());
-        print("중위 순회: ", root, new PreOrder());
-        print("후위 순회: ", root, new PostOrder());
+        print("전위 순회: ", root, new Inorder());
+        print("중위 순회: ", root, new Preorder());
+        print("후위 순회: ", root, new Postorder());
     }
 
     static void print(String description, TreeNode root, Traversable traversable) {
