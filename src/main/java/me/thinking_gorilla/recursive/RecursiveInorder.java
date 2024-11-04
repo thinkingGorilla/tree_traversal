@@ -1,6 +1,9 @@
-package me.thinking_gorilla;
+package me.thinking_gorilla.recursive;
 
-public class Inorder implements Traversable {
+import me.thinking_gorilla.Traversable;
+import me.thinking_gorilla.TreeNode;
+
+public class RecursiveInorder implements Traversable {
     public void traverse(TreeNode node) {
         if (node == null)  return;
 
