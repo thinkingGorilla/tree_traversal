@@ -23,11 +23,12 @@ public class Traverser {
         root.right.left = new TreeNode(13);
         root.right.right = new TreeNode(18);
 
-
         print("전위 순회: ", root, new RecursivePreorder());
         print("중위 순회: ", root, new RecursiveInorder());
         print("후위 순회: ", root, new RecursivePostorder());
+        
         System.out.println();
+        
         print("전위 순회: ", root, new StackPreorder());
         print("중위 순회: ", root, new StackInorder());
         print("후위 순회: ", root, new StackPostorder());
